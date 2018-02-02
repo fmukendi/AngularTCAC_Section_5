@@ -1,2 +1,48 @@
 <h1>Home</h1>
 <p>Angular 2/4 - Animation Tutorial & Example</p>
+
+  <!-- 1 -->
+  <div>
+    <label for=""> (1) Component API </label>
+    <ul class="nav nav-tabs">
+      <li routerLinkActive="active">
+        <a routerLink="/componentApi">
+            componentAPI
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- 2-->
+  <div>
+    <label for=""> (2) ng Content </label>
+    <ul class="nav nav-tabs">
+      <li routerLinkActive="active">
+        <a routerLink="/panel">
+            Panel Component
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <app-panel>
+      <div class="heading">Heading</div>
+      <div class="body">
+          <h2>Body</h2>
+          <p>Some content here...</p>
+      </div>
+    </app-panel>
+  </div>
+<!-- 3-->
+<div>
+    <label for=""> (3) ngContainer </label>
+  </div>
+  <div>
+    <app-panel>
+      <ng-container >Heading</ng-container>
+      <div class="body">
+          <h2>Body</h2>
+          <p>Some content here...</p>
+      </div>
+    </app-panel>
+  </div>
+

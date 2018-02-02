@@ -18,6 +18,9 @@ import { MatCardModule } from '@angular/material/card';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule, routedComponents } from './app-routing.module';
+import { ComponentApiComponent } from './component-api/component-api.component';
+import { FavoriteComponent } from './favorite/favorite.component';
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
     imports: [
@@ -39,7 +42,10 @@ import { AppRoutingModule, routedComponents } from './app-routing.module';
     ],
     declarations: [
         AppComponent,
-        routedComponents
+        routedComponents,
+        ComponentApiComponent,
+        FavoriteComponent,
+        PanelComponent
     ],
     providers: [
     ],

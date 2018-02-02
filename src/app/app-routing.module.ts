@@ -1,3 +1,5 @@
+import { PanelComponent } from './panel/panel.component';
+import { ComponentApiComponent } from './component-api/component-api.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -9,6 +11,14 @@ const routes: Routes = [
     {
         path: 'products',
         component: ProductListComponent
+    },
+    {
+        path: 'componentApi',
+        component: ComponentApiComponent
+    },
+    {
+        path: 'panel',
+        component: PanelComponent
     },
 
     // otherwise redirect to home
